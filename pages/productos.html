@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/VG LOGO.png" type="image/x-icon">
     <title>VGdecohome</title>
@@ -19,57 +20,153 @@
 <body>
     <!-- empieza el header -->
     <header>
-        <img src="../img/VG LOGO.png" alt="vg logo color linea png">
-            <nav>
-                <a href="../index.html">Inicio</a>
-                <a href="./proyectos.html">Proyectos</a>
-                <a href="./productos.html">Productos</a>
-                <a href="./sobrenosotros.html">Sobre Nosotros</a>
-                <a href="./contactos.html">Contactos</a>
-                <input type="buscar"> <img src="../img/carrito.png" alt="carrito super color compra">
-            </nav>
+      <img class="img-logo" src="../img/VG LOGO.png" alt="vg logo color linea png">
+      <nav>
+        <div class=" container text-center">
+          <a href="../index.html">Inicio</a>
+          <a href="./proyectos.html">Proyectos</a>
+          <a href="./productos.html">Productos</a>
+          <a href="./sobrenosotros.html">Sobre Nosotros</a>
+          <a href="./contactos.html">Contactos</a>
+        </div>
+      </nav>  
     </header> 
-    
+    <nav class="navbar navbar-mine">
+      <div class="container-fluid">
+        <a class="navbar-brand"></a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 search-mine" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success-mine" type="submit">Buscar</button>
+      </div>
+    </nav>
     <main>
         <div>
-            <h1> Los mejores productos con la mejor calidad! </h1>
-            <h3> Bazar</h3>
-              <nav>
-                <img src="../img/produc b.jpeg" alt="productos casa bazar"> <p>$6.000</p>
-                <img src="../img/produc b 2.jpeg" alt="productos casa bazar"> <p>$3.500</p>
-                <img src="../img/produc b 3.jpg" alt="productos casa bazar"> <p>$8.000</p>
-              </nav>
-            <h3>Sillas y Muebles</h3>
-               <nav>
-                <img src="../img/mueble.jpg" alt="mueble cocina livig casa"> <p>$10.000</p>
-                <img src="../img/silla.png" alt="mueble silla cocina livig casa"><p>$8.750</p>
-                <img src="../img/muebles.jpg" alt="mueble cocina livig casa"><p>$26.000</p>
-               </nav>
-            <h3>Iluminacion</h3>
-              <nav>
-                <img src="../img/ilum.jpg" alt="luz casa techo iluminacion lampara"><p>$18.000</p>
-                <img src="../img/ilum 2.jpg" alt="luz casa techo iluminacion lampara"><p>$12.000</p>
-                <img src="../img/ilum3.jpg" alt="luz casa techo iluminacion lampara"><p>$19.000</p>
-              </nav>
-            <h3>Decoracion</h3>
-              <nav>
-                <img src="../img/deco.jpeg" alt="deco casa cosas decoracion interior"><p>$8.000</p>
-                <img src="../img/deco2.jpg" alt="deco casa cosas decoracion interior"><p>$6.250</p>
-                <img src="../img/deco 3.jpg" alt="deco casa cosas decoracion interior"><p>$4.500</p>
-              </nav>
+         <h1 class="prod-mine "> Los mejores productos con la mejor calidad! </h1>
+         <h3> Bazar</h3>
+             
+         <div class="container text-center">
+          <div class="row align-items-center pb-5">
+            <div class="col">
+              <img src="../img/produc b.jpeg" alt="cocina productos interior decoracion"><p>$6.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/produc b 2.jpeg" alt="cocina productos interior decoracion"><p>$3.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/produc b 3.jpg" alt="cocina productos interior decoracion"><p>$8.000</p>
+            </div>
+          </div>
+        </div>
+      <h3>Sillas/Muebles</h3>
+        <div class="container text-center">
+          <div class="row align-items-center pb-5">
+            <div class="col">
+              <img src="../img/silla.png" alt="muebles interior deco living"><p>$8.750</p>
+            </div>
+            <div class="col">
+              <img src="../img/mueble.jpg" alt="muebles interior deco living"><p>$10.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/muebles.jpg" alt="muebles interior deco living"><p>$26.000</p>
+            </div>
+          </div>
+        </div>
+        <h3>Iluminacion</h3>
+        <div class="container text-center">
+          <div class="row align-items-center pb-5">
+            <div class="col">
+              <img src="../img/ilum.jpg" alt="Iluminacion luz casa interior lampara"><p>$18.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/ilum 2.jpg" alt="Iluminacion luz casa interior lampara"><p>$12.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/ilum3.jpg" alt="Iluminacion luz casa interior lampara"><p>$19.000</p>
+            </div>
+          </div>
+        </div> 
+        <h3>Decoracion</h3>
+        <div class="container text-center">
+          <div class="row align-items-center pb-5">
+            <div class="col">
+             <img src="../img/deco.jpeg" alt="deco casa cosas interior"><p>$8.000</p>
+            </div>
+            <div class="col">
+              <img src="../img/deco2.jpg" alt="deco casa cosas interior"><p>$6.250</p>
+            </div>
+            <div class="col">
+              <img src="../img/deco 3.jpg" alt="deco casa cosas interior"><p>$4.500</p>
+            </div>
+          </div>
+        </div>
+
+              
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 <!-- empieza el footer -->
 <footer>
-<h4>Contactanos</h4>
-    <img src="../img/inta.png" alt="logo instagram colores redes"> <p>vgdecohome</p>
-    <img src="../img/whats.png" alt="logo whatsapp colores redes"><p>+54 351 768 2904</p>
-    <img src="../img/telefono.png" alt="logo telefono llamada color"><p>351 768 2904</p>
-    <img src="../img/mail.png" alt="logo gmail color correo"><p> VGdecohome@gmail.com</p>
-<h4>Locales</h4>
-    <img src="../img/ubic.png" alt="logo ubicacion mapa lugar"><p>Av Rafael Nuñes, 8603</p>
-    <img src="../img/ubic.png" alt="logo ubicacion mapa lugar"><p>Boulevar Los Alemanes,4951</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27259.753410802743!2d-64.28512602421755!3d-31.346029802863125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eae42c4440b%3A0x473b98d5636193de!2sArguello%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1675799352576!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="container-fluid">
+    <div class="row p-3 bg-secondary text-black">
+     <h4 class=" m-3">Contactanos</h4>
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="../img/whats.png" class=" m-2 rounded-circle" alt="logo whatsapp encontranos Contactanos">
+        </div>
+        <div class=" row col-8 flex-grow-1">
+          <p class=" mb-1 leter-mine">+54 9 3517859341</p>
+        </div>
+      </div>
+      
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="../img/inta.png" class=" m-2 rounded-circle" alt="logo instagram encontranos Contactanos">
+        </div>
+        <div class=" row col-8 flex-grow-1">
+          <p class=" mb-1 leter-mine">VGdecohome</p>
+        </div>
+      </div>
+  
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="../img/telefono.png" class=" m-2 rounded-circle" alt="logo telefono encontranos Contactanos">
+        </div>
+        <div class=" row col-8 flex-grow-1">
+          <p class=" mb-1 leter-mine">3517859341</p>
+        </div>
+      </div>
+  
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img src="../img/mail.png" class=" m-2 rounded-circle" alt="logo mail encontranos Contactanos">
+        </div>
+        <div class=" row col-8 flex-grow-1">
+          <p class=" mb-1 leter-mine">vgdecohome@gmail.com</p>
+        </div>
+      </div>
+       <h4 class=" m-3">Locales</h4>
+      <div class="row">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="../img/ubic.png" class="m-2 rounded-circle" alt="logo ubicacion encontranos maps">
+          </div>  
+          <div >
+           <p class="mb-1 leter-mine">Av.Rafael Nuñez, 8603</p> 
+          </div>
+        </div>
+    
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <img src="../img/ubic.png" class=" m-2 rounded-circle" alt="logo ubicacion encontrarnos maps">
+          </div>
+          <p class="mb-1 leter-mine">Boulevar Los Alemanes, 4951</p>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <p class="text-black text-end">Copyright- All rights reserved 2023</p>
+      </div>
+    </div>
+  </div>
 </footer>
 </html>
