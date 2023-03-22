@@ -1,0 +1,9 @@
+@mixin cent($text-align){
+    text-align: center;
+}
+@mixin lef ($text-align){
+   text-align: left;
+}
+@mixin deco ( $text-decoratio){
+    text-decoration: underline;
+}

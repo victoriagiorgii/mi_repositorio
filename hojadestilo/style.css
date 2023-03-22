@@ -1,0 +1,86 @@
+/*font-family: 'Cinzel', serif;*/
+/*font-family:  'Raleway', sans-serif*/
+/* font-family: 'Montserrat', sans-serif;*/
+/*'Courier New', Courier, monospace*/
+body{
+    background-color: burlywood;
+    }
+    .img-logo{
+        margin: 10px;
+        padding: 5px;
+        padding-left: 30px;
+    }
+    nav a {
+        color: black;
+        padding: 6px 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1{
+       font-family: 'Cinzel', serif;;
+       color: black;
+       text-align: center;
+       margin: 50px;
+       padding: 20px;
+       text-decoration: underline;
+       font-style: italic;
+    }
+    h2{
+       font-family: 'Raleway', sans-serif;
+       color: black;
+       text-align: center;
+    }
+    h3{
+        font-family: 'Raleway', sans-serif;;
+        font-size: x-large;
+        color: black;
+        text-align: left;
+        padding: 10px;
+    }
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        text-align: left;
+        margin: 20px 30px;
+    }
+    
+    .imagen-mine{
+        padding: 30px 20px;
+    }
+    
+    .btn-outline-success-mine{
+        border-color: black;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .justify-content-evenly-mine{
+        padding: 10px 10px 100px 10px ;
+    }
+    .video-deco{
+        margin: 50px;
+    }
+    .titulo1{
+        padding-top: 40px;
+    }
+    .img-fluid-rounded-mine{
+        margin: 10px;
+        padding: 20px 20px 150px 20px;
+    }
+    .img-contacto{
+        border-radius: 0%;
+    
+    }
+    .search-mine{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .leter-mine{
+        font-family:'Montserrat', sans-serif;
+    }
+    .collage-mine{
+        padding: 30px 20px;
+        margin: 20px 20px;
+        display: flex;
+    }
+    .prod-mine{
+        margin: 40px;
+    }

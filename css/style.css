@@ -1,86 +1,182 @@
-/*font-family: 'Cinzel', serif;*/
-/*font-family: */
-/* font-family: 'Montserrat', sans-serif;*/
-/*'Courier New', Courier, monospace*/
-body{
-background-color: burlywood;
-}
-.img-logo{
-    margin: 10px;
-    padding: 5px;
-    padding-left: 30px;
-}
-nav a {
-    color: black;
-    padding: 6px 10px;
-    font-family: 'Courier New', Courier, monospace;
+div .btn-outline-success-mine {
+  border-color: black;
 }
 
-h1{
-   font-family: 'Cinzel', serif;;
-   color: black;
-   text-align: center;
-   margin: 50px;
-   padding: 20px;
-   text-decoration: underline;
-   font-style: italic;
-}
-h2{
-   font-family: 'Raleway', sans-serif;
-   color: black;
-   text-align: center;
-}
-h3{
-    font-family: 'Raleway', sans-serif;;
-    font-size: x-large;
-    color: black;
-    text-align: left;
-    padding: 10px;
-}
-h4{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    text-align: left;
-    margin: 20px 30px;
+div .collage-mine {
+  justify-content: center;
 }
 
-.imagen-mine{
-    padding: 30px 20px;
+main .sobrenosotros {
+  border-color: rgb(114, 102, 87);
 }
 
-.btn-outline-success-mine{
-    border-color: black;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+main .sobrenosotros {
+  border-style: ridge;
 }
-.justify-content-evenly-mine{
-    padding: 10px 10px 100px 10px ;
-}
-.video-deco{
-    margin: 50px;
-}
-.titulo1{
-    padding-top: 40px;
-}
-.img-fluid-rounded-mine{
-    margin: 10px;
-    padding: 20px 20px 150px 20px;
-}
-.img-contacto{
-    border-radius: 0%;
 
+main h1 {
+  font-family: "Cinzel", serif;
+  color: black;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  text-decoration: underline;
+  font-style: italic;
 }
-.search-mine{
-    font-family: 'Courier New', Courier, monospace;
+main h1 .titulo1 {
+  padding-top: 40px;
 }
-.leter-mine{
-    font-family:'Montserrat', sans-serif;
+main h2 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
 }
-.collage-mine{
-    padding: 30px 20px;
-    margin: 20px 20px;
-    display: flex;
+main h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  margin: 10px;
+  font-weight: 50;
+  text-decoration: underline;
 }
-.prod-mine{
-    margin: 40px;
+main .sobrenosotros {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin: 50px;
+  font-weight: 50;
+  font-style: italic;
+  line-height: 1.5;
 }
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  margin: 50px;
+  font-weight: 50;
+}
+
+div h1 {
+  color: black;
+  margin: 50px;
+  padding: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: "Cinzel", serif;
+}
+div h1 .prod-mine {
+  margin: 40px;
+}
+div h2 {
+  color: black;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+div h3 {
+  font-family: "Cinzel", serif;
+  font-size: x-large;
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+div a {
+  color: black;
+  padding: 6px 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+div .imagen-mine {
+  padding: 30px 20px;
+}
+div .btn-outline-success-mine {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+div .video-deco {
+  margin: 50px;
+}
+div .img-fluid-rounded-mine {
+  margin: 10px;
+  padding: 20px 20px 150px 20px;
+}
+div .search-mine {
+  font-family: "Courier New", Courier, monospace;
+}
+div .leter-mine {
+  font-family: "Montserrat", sans-serif;
+}
+div .collage-mine {
+  padding: 30px 20px;
+  margin: 20px 20px;
+}
+div .imagen-mine2 {
+  margin: 20px;
+  padding-left: 30px;
+}
+div .img-fluid-rounded-mine2 {
+  padding: 50px 30px 80px 30px;
+  margin: 10px;
+}
+div .cont-inf {
+  margin-left: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 580;
+}
+
+body {
+  background-color: rgb(196, 163, 133);
+}
+body .img-logo {
+  padding: 5px;
+  padding-left: 30px;
+  margin: 10px;
+}
+
+footer h4 {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: left;
+  margin: 20px 30px;
+}
+
+.form-nombre {
+  padding: 5px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-apellido {
+  padding: 5px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-email {
+  padding: 5px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-text {
+  padding: 5px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+}
+
+.form-btn {
+  padding: 5px;
+  margin: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

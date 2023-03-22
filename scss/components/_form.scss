@@ -1,0 +1,30 @@
+
+.form-nombre{
+    padding: $pad-logo;
+    margin: $mag-1;
+    font-family: $fon2;
+}
+.form-apellido{
+    padding: $pad-logo;
+    margin: $mag-1;
+    font-family: $fon2;
+}
+.form-email{
+    padding: $pad-logo;
+    margin: $mag-1;
+    font-family: $fon2;
+}
+.form-text{
+    padding: $pad-logo;
+    margin: $mag-1;
+    font-family: $fon2;
+    font-size: $fon-si-m;
+}
+.form-btn{
+    padding: $pad-logo;
+    margin: $mag-1;
+    font-family: $fon2;
+    @include cent(center)
+    
+}
+

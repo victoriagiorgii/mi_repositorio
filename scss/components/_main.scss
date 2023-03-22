@@ -1,0 +1,57 @@
+main{
+    h1{
+       font-family: $fon1;
+        color: map-get($colors, bg-black );
+        @include cent(center);
+        margin: $mag-h1;
+        padding: $pad-h1;
+        @include deco (underline);
+        font-style: $fon-st;
+
+        .titulo1{
+            padding-top: $pad-tit1;
+          }
+     }
+        
+
+    h2{
+        font-family: $fon4;
+        color: map-get($colors, bg-black );
+        @include cent (center);
+        padding: $pad-h1;
+        margin: $mag-h1;
+        }
+    h3{
+            font-family: $fon2;
+            font-size: $fon5-si;
+            color: map-get($colors, bg-black );
+            @include lef (left);
+            padding: $pad;
+            margin: $mag;
+            font-weight: $fon-we-1;
+            @include deco(underline);
+            
+        }
+    .sobrenosotros{
+        font-family: $fon2;
+        font-size: $fon5-si;
+        color: map-get($colors, bg-black );
+        @include cent (center);
+        padding: $pad;
+        margin: $mag-h1;
+        font-weight: $fon-we-1;
+        @extend %ex-bord1;
+        @extend %ex-bordsty; 
+        font-style: $fon-st;
+        line-height: 1.5;
+    }
+}
+h3{
+    font-family: $fon2;
+    font-size: $fon5-si;
+    color: map-get($colors, bg-black );
+    @include cent (center);
+    padding: $pad;
+    margin: $mag-h1;
+    font-weight: $fon-we-1;
+}

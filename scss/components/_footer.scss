@@ -1,0 +1,8 @@
+footer{
+    h4{
+        font-family: $fon2;
+        color: map-get($colors, bg-black );
+        @include lef (left);
+        margin: $mag-h4 ;
+    }
+}

@@ -1,0 +1,73 @@
+div{
+    h1{
+       color: map-get($colors, bg-black );
+       margin: $mag-h1;
+       padding: $pad-h1;
+       @include deco (underline);
+       font-style: $fon-st;
+       font-family: $fon1 ;
+       .prod-mine{
+        margin: $mag-prod;
+       }
+    }
+    h2{
+        color: map-get($colors, bg-black);
+        @include cent (center);
+        font-family: $fon4;
+        
+    }
+    h3{
+        font-family: $fon1;
+        font-size:$fon5-si ;
+        color: map-get($colors, bg-black );
+        @include lef (left);
+        padding: $pad-h3;
+    }
+    a{
+        color:map-get($colors, bg-black );
+        padding: $pad-nav-a;
+        font-family:$fon3;
+    
+        }
+    .imagen-mine{
+        padding: $pad-img-maine;
+    }
+    .btn-outline-success-mine{
+        color: map-get($colors, bg-black);
+        font-family: $fon3;
+        @extend %ex-bord;
+    }
+    .video-deco{
+        margin: $mag-h1;
+    }
+    .img-fluid-rounded-mine{
+        margin: $mag;
+        padding: $pad-img-flu-rou-mi;
+    }
+    .search-mine{
+        font-family: $fon3;
+    }
+    .leter-mine{
+      font-family: $fon2;
+    }
+    .collage-mine{
+        padding: $pad-coll-min;
+        margin: $mag-coll;
+        @extend %ex-jus;
+    }
+    .imagen-mine2{
+          margin: $pad-h1;
+          padding-left: $pad-left;
+        
+    }
+    .img-fluid-rounded-mine2{
+        padding: $pad-im-flu-2;
+        margin: $mag;
+    }
+    .cont-inf{
+        margin-left: $mag-lef;
+        font-family: $fon2;
+        font-weight: $fon-we;
+
+    }
+}  

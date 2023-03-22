@@ -1,0 +1,10 @@
+body{
+     background-color: map-get($colors, bg-beige );
+    .img-logo{
+        padding: $pad-logo;
+        padding-left: $pad-left;
+        margin: $mag-logo;
+        
+    }
+    
+}
